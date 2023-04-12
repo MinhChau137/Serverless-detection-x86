@@ -12,5 +12,5 @@ WORKDIR detection
 # RUN python3 setup.py
 
 EXPOSE 8080
-CMD ["pythone","jetson_detection.py"]
+CMD ["python3","jetson_detection.py"]
 
