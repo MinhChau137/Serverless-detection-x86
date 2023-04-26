@@ -1,4 +1,4 @@
-FROM dustynv/jetson-inference:22.06
+FROM dustynv/jetson-inference:r35.3.1
 RUN pip install Flask
 
 RUN mkdir data
